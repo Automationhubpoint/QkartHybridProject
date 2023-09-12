@@ -5,8 +5,9 @@
     <classes>
       <class name="test_cases.RegisterTest">
         <methods>
+          <include name="Register"/>
           <include name="setupBrowser"/>
-          <include name="Re_Register" invocation-numbers="0"/>
+          <include name="Re_Register"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- test_cases.RegisterTest -->
