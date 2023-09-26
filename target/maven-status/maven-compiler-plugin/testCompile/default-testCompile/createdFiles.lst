@@ -3,6 +3,7 @@ test_cases\LoginTest.class
 Pages\Login.class
 Pages\SearchResult.class
 Pages\Home$2.class
+test_cases\RegisterTest.class
 Pages\Register.class
 Pages\Home$1.class
 Pages\Checkout.class

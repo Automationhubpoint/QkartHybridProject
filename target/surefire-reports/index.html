@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_cases.LoginTest" class="method navigator-link" hash-for-method="loginToApplication(test123456@, test123456@)">loginToApplication(test123456@, test123456@)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test_cases.LoginTest" class="method navigator-link" hash-for-method="loginToApplication(1111111111@, 111111111#)">loginToApplication(1111111111@, 111111111#)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="test_cases.LoginTest" class="method navigator-link" hash-for-method="loginToApplication(admin@admin.com, admin)">loginToApplication(admin@admin.com, admin)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test_cases.LoginTest" class="method navigator-link" hash-for-method="loginToApplication(test123456@, test123456@)">loginToApplication(test123456@, test123456@)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,18 +132,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginToApplication(test123456@, test123456@)">
-                  </a> <!-- loginToApplication(test123456@, test123456@) -->
+                  <a name="loginToApplication(1111111111@, 111111111#)">
+                  </a> <!-- loginToApplication(1111111111@, 111111111#) -->
                   <span class="method-name">loginToApplication</span>
-                  <span class="parameters">(test123456@, test123456@)</span>
+                  <span class="parameters">(1111111111@, 111111111#)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginToApplication(admin@admin.com, admin)">
-                  </a> <!-- loginToApplication(admin@admin.com, admin) -->
+                  <a name="loginToApplication(test123456@, test123456@)">
+                  </a> <!-- loginToApplication(test123456@, test123456@) -->
                   <span class="method-name">loginToApplication</span>
-                  <span class="parameters">(admin@admin.com, admin)</span>
+                  <span class="parameters">(test123456@, test123456@)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -158,6 +158,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listeners.ExtentTestNGITestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test_cases.LoginTest&quot;/&gt;
@@ -204,16 +207,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginToApplication')
 data.setCell(0, 2, 'test_cases.LoginTest')
-data.setCell(0, 3, 3568);
+data.setCell(0, 3, 3451);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginToApplication')
 data.setCell(1, 2, 'test_cases.LoginTest')
-data.setCell(1, 3, 3437);
+data.setCell(1, 3, 3401);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -246,23 +249,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginToApplication(test123456@, test123456@)</span>
-                <span class="method-start">4814 ms</span>
+                <span class="method-start">16751 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">8386 ms</span>
+                <span class="method-start">20765 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">8776 ms</span>
+                <span class="method-start">20985 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginToApplication(admin@admin.com, admin)</span>
-                <span class="method-start">10933 ms</span>
+                <span class="method-name">loginToApplication(1111111111@, 111111111#)</span>
+                <span class="method-start">30854 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">14371 ms</span>
+                <span class="method-start">34768 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
